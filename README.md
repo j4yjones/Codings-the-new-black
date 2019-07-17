@@ -1,2 +1,2 @@
-# Codings-the-new-black
-Lets get coding
+# Coding is the new black
+This will be our first website
