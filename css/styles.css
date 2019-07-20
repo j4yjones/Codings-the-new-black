@@ -1,5 +1,5 @@
 .fade-in {
-    margin-top: 25px;
+    margin-top: 0px;
     font-size: 21px;
     animation: fadein 4s;
     -moz-animation: fadein 4s; /* Firefox */
@@ -45,9 +45,18 @@ body{
    background-position: center;
    height: 100vh
 }
+nav{
+    position: center;
+    width: 100%;
+    height: 70px;
+    max-width: 1400px;
+    margin: 0;
+    z-index: 1;
+    background: #038C8C;
+}
 .navbar{
   overflow: hidden;
-
+  text-align: center;
 }
 .navbar li a{
   text-decoration: none;
@@ -56,22 +65,24 @@ body{
   display: block;
   padding:12px;
   font-size:1em;
-  line-height: 40px;
+  line-height: 50px;
   z-index: 1;
   position:relative;
-}
-nav{
-    position: center;
-    width: 100%;
-    height: 70px;
-    max-width: 1400px;
-    margin: 0 auto;
-    z-index: 1;
-    background: #038C8C;
 }
 .navbar li{
   list-style: none;
   display: inline-block;
+}
+.content{
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
 }
 #overlay {
   position: fixed;
