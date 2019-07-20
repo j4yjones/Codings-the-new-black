@@ -1,24 +1,64 @@
+.fade-in {
+    margin-top: 25px;
+    font-size: 21px;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 body{
-   background-image:url("a-ridley.jpg");
+   background-image:url("ku-ku.jpg");
    -webkit-background-size:cover;
    background-size: cover;
    background-position: center;
    height: 100vh
 }
-.menu-area li a{
+.navbar{
+  overflow: hidden;
+
+}
+.navbar li a{
   text-decoration: none;
   color:#ACEBF2;
   letter-spacing:0px;
   display: block;
-  padding:90px
-  font-size 50px;
+  padding:12px;
+  font-size:1em;
   line-height: 40px;
   z-index: 1;
   position:relative;
-}
-.menu-area li{
-  list-style: none;
-  display: inline-block;
 }
 nav{
     position: center;
@@ -28,6 +68,10 @@ nav{
     margin: 0 auto;
     z-index: 1;
     background: #038C8C;
+}
+.navbar li{
+  list-style: none;
+  display: inline-block;
 }
 #overlay {
   position: fixed;
