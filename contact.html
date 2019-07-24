@@ -4,7 +4,7 @@
   <title>Coding is the new black</title>
   <link rel="stylesheet" type="text/css" href=css/styles.css>
 </head>
-<body>
+<body background = "https://cdn.pixabay.com/photo/2017/10/27/15/12/geeks-2894621_960_720.jpg">
   <div>
     <nav>
       <ul class="menu-area">
@@ -19,6 +19,8 @@
   <h1> Got any questions? Fill out your details below and we will get in touch with you!</h1>
   <h3>Contact Form</h3>
 
+  
+
   <div class="container">
     <form action="/action_page.php">
       <label for="fname">First Name</label>
@@ -27,11 +29,12 @@
       <label for="lname">Last Name</label>
       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
+      <label for="questions">Select your inquiry</label>
+      <select id="questions" name="questions">
+        <option value="return">Return an item</option>
+        <option value="exchange">Exchange an item</option>
+        <option value="postage">Overseas postage</option>
+        <option value="other">Other</option>
       </select>
 
       <label for="subject">Subject</label>
@@ -40,5 +43,6 @@
       <input type="submit" value="Submit">
     </form>
   </div>
+</div>
 </body>
 </html>
