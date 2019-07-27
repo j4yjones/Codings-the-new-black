@@ -1,5 +1,5 @@
 body{
-   background-image:url("a-ridley.jpg");
+   background-image:url("ku-ku.jpg");
    -webkit-background-size:cover;
    background-size: cover;
    background-position: center;
@@ -34,12 +34,12 @@ nav{
 body {
   color: grey;
   font-family: sans-serif;
-  margin: 0;
+  margin: 2;
 }
 
 div {
   min-height: 10vh;
-  padding: 10px
+  padding: 20px
 }
 
 h1, h2, h3, h4, h5, h6  {
@@ -47,19 +47,20 @@ h1, h2, h3, h4, h5, h6  {
 }
 
 h1  {
-  font-size: 6em;
+  font-size: 12em;
+  padding: 10px;
 }
 
 h2  {
-  font-size: 5em;
+  font-size: 6em;
 }
 
 h3  {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 p  {
-  font: 2em;
+  font: 4em;
   align: center;
   width: 80%;
   margin: 0 10vh 10vw 10vw;
