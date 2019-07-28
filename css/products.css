@@ -1,25 +1,13 @@
 /* this is a style for navigation bar*/
-#navigation{
-  width: 100%;
-  height: 30px;
-  background: blue;
-  box-shadow: 10px 15px 50px 2px blue;
-  padding-top: 10px;
-  text-align: center;
-}
 nav{
-  width: 1250px;
-  margin:0 auto;
-}
-nav a{
-  margin-left: 10%;
-  color: lightblue;
-  text-decoration: none;
-}
-nav a:hover{
-  color: white;
-  transition:all .5s ease;
-}
+    position: center;
+    width: 100%;
+    height: 70px;
+    max-width: 1400px;
+    margin: 0 auto;
+    z-index: 1;
+    background: #038C8C
+  }
 .container{
   width: 95%
   margin:0 auto;
