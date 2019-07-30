@@ -38,6 +38,32 @@
         opacity: 1;
     }
 }
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.column img {
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.homepage-overlay{
+  padding: 0px;
+  min-height: 10vh;
+}
+
 body{
    background-image:url("ku-ku.jpg");
    -webkit-background-size:cover;
@@ -45,22 +71,6 @@ body{
    background-position: center;
    height: 100vh;
   text-align: center;
-}
-
-.menu-area li a{
-  text-decoration: none;
-  color:#ACEBF2;
-  letter-spacing:0px;
-  display: block;
-  padding:90px
-  font-size 50px;
-  line-height: 40px;
-  z-index: 1;
-  position:relative;
-}
-.menu-area li{
-  list-style: none;
-  display: inline-block;
 }
 
 nav{
@@ -74,9 +84,79 @@ nav{
 }
 
 body {
-  color: grey;
-  font-family: sans-serif;
-  margin: 2;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.column img {
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+nav {
+  position: center;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 80px;
+  padding: 20px;
+  position: relative;
+}
+nav a {
+  color: #444;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FFFEF9;
+}
+nav a::before{
+  content:'';
+  display: block;
+  height: 5px;
+  background-color:#444;
+
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+width:100%;
 }
 
 div {
@@ -118,15 +198,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-ol  {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 10%;
-  font-size: 3;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 <style>
@@ -177,10 +248,4 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
 }
