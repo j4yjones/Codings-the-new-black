@@ -73,16 +73,6 @@ body{
   text-align: center;
 }
 
-nav{
-    position: center;
-    width: 100%;
-    height: 70px;
-    max-width: 1400px;
-    margin: 0 auto;
-    z-index: 1;
-    background: #038C8C;
-}
-
 body {
   margin: 0;
   padding: 10px;
@@ -116,11 +106,14 @@ body {
   margin: 0 auto;
 }
 
-nav {
+/* nav {
   position: center;
   width: 100%;
   max-width: 1400px;
-  margin: 0;
+  height: 70px;
+  margin: 0 auto;
+  z-index: 1;
+  background: #038C8C;
 }
 
 nav ul{
@@ -157,7 +150,7 @@ nav a::before{
 
 nav a:hover::before {
 width:100%;
-}
+} */
 
 div {
   min-height: 10vh;
