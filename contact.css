@@ -1,28 +1,109 @@
+.fade-in {
+    margin-top: 0px;
+    font-size: 21px;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 body{
-   background-image:"https://socialwall.me/en/wp-content/uploads/2015/09/Mockup-Mac-Analytics.jpg";
+   background-image:"contact.jpg";
    -webkit-background-size:cover;
    background-size: 100% 100%;
    background-position: center;
    height: 100%;
 }
- nav{
-     position: center;
-     width: 100%;
-     height: 70px;
-     max-width: 1400px;
-     margin: 0 auto;
-     z-index: 1;
-     background: #038C8C;
- }
 
-/* .font{
-  font-style: normal;
-  color: white;
-  align-content:flex-start;
-  align-items: center;
-  justify-content: center;
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+}
+header {
+  background:  rgba(0, 214, 170, .5);
+  width: 100%;
+}
 
-} */
+header::after {
+  content:'';
+  display: table;
+  clear: both;
+}
+
+nav {
+  position: center;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 80px;
+  padding: 15px;
+  position: relative;
+}
+nav a {
+  color: #444;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FFFEF9;
+}
+nav a::before{
+  content:'';
+  display: block;
+  height: 5px;
+  background-color:#444;
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+width:100%;
+}
+
 
 
 
