@@ -52,7 +52,7 @@ body{
   margin: 0 auto;
 }
 header {
-  background:  rgba(0, 214, 170, .5);
+  background:  rgba(0, 214, 170, 0.85);
   width: 100%;
 }
 
