@@ -37,7 +37,7 @@ nav ul{
 nav li {
   display: inline-block;
   margin-left: 80px;
-  padding: 20px;
+  padding: 2px;
   position: relative;
 }
 nav a {
