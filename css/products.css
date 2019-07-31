@@ -1,5 +1,102 @@
-.body{
-  background: #ebebeb;
+.fade-in {
+    margin-top: 0px;
+    font-size: 21px;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+}
+header {
+  background:  rgba(0, 214, 170, .5);
+  width: 100%;
+}
+
+header::after {
+  content:'';
+  display: table;
+  clear: both;
+}
+
+nav {
+  position: center;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 80px;
+  padding: 15px;
+  position: relative;
+}
+nav a {
+  color: #444;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FFFEF9;
+}
+nav a::before{
+  content:'';
+  display: block;
+  height: 5px;
+  background-color:#444;
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+width:100%;
+}
+
+#body{
+   background: #e0e0e0
 }
 .boxes span3{
   background: #f0f9a0;
