@@ -96,13 +96,14 @@ width:100%;
 }
 
 #body{
-   background: #e0e0e0
+  background: #e0e0e0;
 }
+
 .boxes span3{
   background: #f0f9a0;
   width: 100%;
-  height: 25px;
-  line-height: 25px;
+  height: 50px;
+  line-height: 50px;
   color: black;
   display: block;
   font-family: 'Open Sans', sans-serif;
@@ -120,6 +121,9 @@ p{
 	letter-spacing:1px;
 	font-size: 0.9em;
 }
+
+/* product1 */
+
 .fproduct {
     background: #2ec8ce;
     margin-left: 40px;
@@ -154,6 +158,7 @@ width: 100%
     color: #545454;
 	line-height:2em;
 }
+/* product2 */
 .fproduct2 {
     background: #f0f9a0;
     margin-right: 40px;
@@ -188,6 +193,7 @@ width: 100%
     color: #545454;
 	line-height:2em;
 }
+/* product3 */
 .fproduct3 {
     background: #fa8e97;
     margin-left: 40px;
@@ -208,7 +214,7 @@ width: 100%
     background: #fff;
     margin: 6.5em 0 0;
     width: 90%;
-    margin-bottom:15%;
+    margin-bottom: 15%;
 }
 .right3_grid h3{
     text-transform: uppercase;
@@ -227,8 +233,8 @@ width: 100%
 }
 .boxes span4{
   width: 100%;
-  height: 25px;
-  line-height: 25px;
+  height: 50px;
+  line-height: 50px;
   background: #fa8e97;
   color: white;
   display: block;
@@ -238,7 +244,7 @@ width: 100%
   text-align: center;
   z-index: 999;
 }
-
+/* product4 */
 .fproduct4 {
     background: #78caae;
     margin-right: 40px;
@@ -275,8 +281,8 @@ width: 100%;
 }
 .boxes span5{
   width: 100%;
-  height: 25px;
-  line-height: 25px;
+  height: 50px;
+  line-height: 50px;
   background: #78caae;
   color: white;
   display: block;
