@@ -222,8 +222,8 @@ p1#handmade:hover{
 }
 .fa {
   padding: 15px;
-  font-size: 15px;
-  width: 50px;
+  font-size: 19px;
+  width: 21px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -255,6 +255,6 @@ p1#handmade:hover{
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #8B008B;
   color: white;
 }
